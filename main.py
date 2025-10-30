@@ -8,7 +8,7 @@ from aiogram.filters import Command
 import random
 
 
-TOKEN = os.getenv("BOT_TOKEN") or "8435847312:AAGthYAFzboEYHeOkhc8WmiWNFi_ZzcS4Lo"
+TOKEN = "YOUR_BOT_TOKEN"
 bot = Bot(token=TOKEN)
 dp = Dispatcher()
 user_answers = {}
