@@ -1,5 +1,4 @@
 # ...existing code...
-import os
 from aiogram import Bot, Dispatcher, types, F
 from aiogram.types import ReplyKeyboardMarkup, KeyboardButton, InlineKeyboardMarkup, InlineKeyboardButton
 import asyncio
@@ -8,7 +7,7 @@ from aiogram.filters import Command
 import random
 
 
-TOKEN = "YOUR_BOT_TOKEN"
+TOKEN = "8435847312:AAG5-t-oKt69hO_IwFSTsZl5auTF90-Y4ZE"
 bot = Bot(token=TOKEN)
 dp = Dispatcher()
 user_answers = {}
